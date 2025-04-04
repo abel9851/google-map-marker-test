@@ -1,0 +1,73 @@
+# ================================
+# Node.js / JavaScript
+# ================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# Optional: comment out if you want lockfiles for reproducible builds
+# package-lock.json
+# yarn.lock
+
+# ================================
+# TypeScript
+# ================================
+*.tsbuildinfo
+dist/
+build/
+out/
+coverage/
+
+# Ignore compiled JavaScript (if not kept)
+*.js
+*.js.map
+*.d.ts
+
+# If your build outputs to a specific folder (like 'dist')
+# You can keep .gitkeep files inside empty folders
+!.gitkeep
+
+# ================================
+# VSCode / Editor Configs
+# ================================
+.vscode/
+.idea/
+*.sw?
+*.swo
+*.DS_Store
+
+# ================================
+# Env / Secrets (if any)
+# ================================
+.env
+.env.*
+!.env.example
+
+# ================================
+# Mac / Linux / Windows OS
+# ================================
+Thumbs.db
+.DS_Store
+*.bak
+*.log
+
+# ================================
+# Optional: test / coverage tools
+# ================================
+coverage/
+.nyc_output/
+jest-*.json
+test-results.xml
+
+# ================================
+# Optional: debug / temp files
+# ================================
+*.log
+*.tmp
+tmp/
+temp/
